@@ -3,8 +3,6 @@
 Brutally honest on-chain token scanner. Tells you: ENTER / WAIT / CUT.  
 Built solo for EasyA Consensus Hong Kong 2026 – DeFi Track.
 
-![Dashboard screenshot](screenshots/dashboard.png)
-
 ### Quick Demo
 Watch 2-min:
 
@@ -20,3 +18,7 @@ Aren't we all tired of of getting rekt by manipulated pumps? I've wanted somethi
 - Tailwind + Framer Motion
 - Solana/Base (Helius/Birdeye APIs)
 - CoinGecko (free credits)
+
+**How I used AI tools responsibly:**
+- Grok — Generated some component skeletons and helped brainstorm UI flows.
+- Figma AI — Quick layout ideas and mascot variations. (I reviewed every suggestion, fixed bugs, wrote the core risk scoring rules, integrated blockchain data, and made all final decisions. AI accelerated shipping; the project idea and execution are mine.)
