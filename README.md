@@ -1,8 +1,8 @@
 # SONA Intelligence
 
-Pre-trade risk & opportunity guardrail tool for RobinPump.fun (Base-chain bonding-curve memecoin launcher).
+This is only a prototype demo for pre-trade risk & opportunity guardrail tool for RobinPump.fun (Base-chain bonding-curve memecoin launcher)
 
-Video here https://youtu.be/NwuFB13c1zY
+Video here: https://youtu.be/NwuFB13c1zY
 
 ## Overview
 
