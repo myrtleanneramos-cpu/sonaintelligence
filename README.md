@@ -117,10 +117,6 @@ Currently using **CoinGecko API** endpoints (mock data in prototype):
 - [ ] On-chain data verification
 - [ ] Multi-chain support beyond Base
 
-## License
-
-MIT
-
 ## Author
 
-Built with precision for the RobinPump.fun ecosystem.
+Built for the RobinPump.fun ecosystem.
