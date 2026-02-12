@@ -1,24 +1,124 @@
-# SONARI
+# SONA Intelligence
 
-Brutally honest on-chain token scanner. Tells you: ENTER / WAIT / CUT.  
-Built solo for EasyA Consensus Hong Kong 2026 – DeFi Track.
+Pre-trade risk & opportunity guardrail tool for RobinPump.fun (Base-chain bonding-curve memecoin launcher).
 
-### Quick Demo
-Watch 2-min:
+## Overview
 
-### What it does
-A prototype feels that scans tokens on RobinPump.fun-style bonding curves for wash trading, fake volume, rug signals.  
-SONARI gives one clear verdict + cleanliness score so you don't FOMO into traps.
+SONA Intelligence is a mobile-first crypto trading interface with Phantom-style glassmorphism design. It provides real-time risk analysis, survivability scoring, and comprehensive trade logging for memecoin traders on the Base blockchain.
 
-### Why I built it
-Aren't we all tired of of getting rekt by manipulated pumps? I've wanted something that forces me to see the truth fast.
+**Taglines:**
+- "Know before you click."
+- "No rugs. Just receipts."
 
-### Built with
-- React / Next.js
-- Tailwind + Framer Motion
-- Solana/Base (Helius/Birdeye APIs)
-- CoinGecko (free credits)
+## Design System
 
-**How I used AI tools responsibly:**
-- Grok — Generated some component skeletons and helped brainstorm UI flows.
-- Figma AI — Quick layout ideas and mascot variations. (I reviewed every suggestion, fixed bugs, wrote the core risk scoring rules, integrated blockchain data, and made all final decisions. AI accelerated shipping; the project idea and execution are mine.)
+- **Background:** Radial gradient from #0A0A1F to #0F0F0F
+- **Primary Accent:** Neon green (#22C55E) for success states, borders, glows
+- **Caution:** Orange (#F97316)
+- **Danger:** Red (#EF4444)
+- **Glassmorphism:** Heavy backdrop blur (40-50px), 20-30% white overlays, neon green borders
+- **Typography:** Inter font family
+- **Mobile Frame:** 390×844px (iPhone 14 Pro optimized)
+
+## Features
+
+### 1. SONA Now (Home/Market Overview)
+- Token address/name input with real-time detection
+- Risk assessment chips with color-coded warnings
+- Next Move recommendations
+- Fix It suggestions for risk mitigation
+- Hidden Wins discovery (clean tokens only)
+- CoinGecko API integration for live data
+
+### 2. Token Truth (Survivability Scoring)
+- Dynamic score circle with animated ring (0-100 scale)
+- Multi-gate analysis:
+  - Liquidity assessment
+  - Wash trade detection
+  - Momentum tracking
+  - Slippage monitoring
+  - Concentration analysis
+- Protected entry gates with override logging
+
+### 3. Receipt (Trade Receipts/Forensics)
+- Complete timeline of all trade actions
+- Evidence tiles (transaction hash, CoinGecko snapshots, logs)
+- Export and save functionality
+- Immutable override logging
+
+### 4. Rules (Risk Controls)
+- Adjustable max position size (% of wallet)
+- Daily loss limits with auto-stop
+- Strict mode toggle (no overrides)
+- Quick presets: Conservative, Balanced, Aggressive, YOLO
+- Permanent override logging (always on)
+
+## Tech Stack
+
+- **Framework:** React 18 + TypeScript
+- **Routing:** React Router v7 (Data mode)
+- **Styling:** Tailwind CSS v4
+- **Icons:** Lucide React
+- **Build Tool:** Vite
+- **Data Source:** CoinGecko API (mock data for prototype)
+
+## Installation
+
+```bash
+# Install dependencies
+npm install
+
+# Run development server
+npm run dev
+
+# Build for production
+npm run build
+```
+
+## Project Structure
+
+```
+/src
+  /app
+    /components
+      SonaNow.tsx       # Home screen
+      TokenTruth.tsx    # Survivability scoring
+      Receipt.tsx       # Trade receipts
+      Rules.tsx         # Risk controls
+    routes.tsx          # React Router config
+    App.tsx            # Main app component
+  /styles
+    theme.css          # Design tokens
+    fonts.css          # Font imports
+    app.css           # Global styles
+```
+
+## API Integration
+
+Currently using **CoinGecko API** endpoints (mock data in prototype):
+- `/simple/price` - Token price data
+- `/market_chart` - Historical market data
+- `/coins/{id}` - Detailed token information
+
+## Responsive Design
+
+- **Mobile-first:** 390×844px primary viewport
+- **Desktop:** Responsive grid layouts up to 7xl breakpoint
+- **Tablet:** Adaptive layouts with MD breakpoints
+
+## Future Enhancements
+
+- [ ] Live CoinGecko API integration with real credentials
+- [ ] Web3 wallet connection (MetaMask, Phantom)
+- [ ] Base blockchain transaction execution
+- [ ] Real-time slippage monitoring
+- [ ] On-chain data verification
+- [ ] Multi-chain support beyond Base
+
+## License
+
+MIT
+
+## Author
+
+Built with precision for the RobinPump.fun ecosystem.
