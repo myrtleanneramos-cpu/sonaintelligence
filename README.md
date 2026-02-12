@@ -6,7 +6,7 @@ Video here: https://youtu.be/NwuFB13c1zY
 
 ## Overview
 
-SONA Intelligence is a mobile-first crypto trading interface with Phantom-style glassmorphism design. It provides real-time risk analysis, survivability scoring, and comprehensive trade logging for traders using blockchain.
+SONA Intelligence is a mobile-first crypto trading providing real-time risk analysis, survivability scoring, and comprehensive trade logging for traders using blockchain.
 
 **Taglines:**
 - "Know before you click."
