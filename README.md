@@ -2,17 +2,17 @@
 
 This repository contains early-stage prototype logic for demonstration and development testing purposes only.
 
-Core SONA Intelligence - SONARI architecture, including:
+**Core SONA Intelligence - SONARI architecture, including:**
 
 • Scoring algorithms
 • Anti-clone engine
 • Subliminal detection framework
 • Predictive weighting systems
 • Consent ledger infrastructure
+_
+Are proprietary and not included in this repository._
 
-Are proprietary and not included in this repository.
-
-This code does not represent the full production system.
+**This code does not represent the full production system.**__
 
 Commercial use or replication without written authorization is prohibited.
 
