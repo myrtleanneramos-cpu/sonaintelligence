@@ -1,3 +1,23 @@
+**⚠️ Notice — Prototype Repository**
+
+This repository contains early-stage prototype logic for demonstration and development testing purposes only.
+
+Core SONA Intelligence - SONARI architecture, including:
+
+• Scoring algorithms
+• Anti-clone engine
+• Subliminal detection framework
+• Predictive weighting systems
+• Consent ledger infrastructure
+
+Are proprietary and not included in this repository.
+
+This code does not represent the full production system.
+
+Commercial use or replication without written authorization is prohibited.
+
+Tone Temple © 2026 — All Rights Reserved.
+
 # SONA Intelligence
 
 This is only a prototype demo for pre-trade risk & opportunity guardrail tool for RobinPump.fun (Base-chain bonding-curve memecoin launcher)
