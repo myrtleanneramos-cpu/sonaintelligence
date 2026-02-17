@@ -9,10 +9,10 @@ This repository contains early-stage prototype logic for demonstration and devel
 • Subliminal detection framework
 • Predictive weighting systems
 • Consent ledger infrastructure
-_
-Are proprietary and not included in this repository._
 
-**This code does not represent the full production system.**__
+Are proprietary and not included in this repository.
+
+**This code does not represent the full production system.**
 
 Commercial use or replication without written authorization is prohibited.
 
